@@ -7,9 +7,10 @@ import Booking from './components/Booking';
 import Footer from './components/Footer';
 import Main from './components/Main';
 import Nav from './components/Nav';
+import WorkInProgress from './components/WorkInProgress';
 import useWindowWidth from './helper/useWindowWidth';
 import { useStore } from './store';
-import WorkInProgress from './components/WorkInProgress';
+
 function App() {
   const width = useWindowWidth();
   return (
